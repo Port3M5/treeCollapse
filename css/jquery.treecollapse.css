@@ -1,0 +1,31 @@
+.tree-super-parent, .tree-super-parent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tree-collapsable li {
+    margin-left: 1em;
+}
+
+.tree-collapsable li.tree-parent {
+    margin-left: 0;
+}
+
+.tree-parent ul {
+    margin-left: 1em;
+}
+
+.tree-arrow {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    overflow: hidden;
+    text-indent: 100em;
+
+    background: url('../images/treecollapse.gif');
+}
+
+.tree-arrow.tree-toggled {
+    background-position: -7px;
+}

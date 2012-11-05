@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>treeCollapse.js</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/jquery.treecollapse.css">
+
+    <script type="text/javascript" src="lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="jquery.treecollapse.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            "use strict";
+            $('#tree-ul-1').treeCollapse();
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="tree-ul-1">
+        <li>
+            Top Level
+            <ul>
+                <li>Second Level</li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+            </ul>
+        </li>
+        <li>
+            Top Level
+            <ul>
+                <li>Second Level</li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+            </ul>
+        </li>
+        <li>
+            Top Level
+            <ul>
+                <li>
+                    Second Level
+                    <ul>
+                        <li>Third Level</li>
+                        <li>Third Level</li>
+                        <li>Third Level</li>
+                        <li>Third Level</li>
+                    </ul>
+                </li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+                <li>Second Level</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
